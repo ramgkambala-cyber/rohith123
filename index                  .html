@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tech Elites</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f9fcff;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(to right,#dff6ff,#fff4cc);
+    padding:70px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:60px;
+    color:#0066cc;
+    margin-bottom:20px;
+}
+
+header p{
+    font-size:24px;
+    color:#444;
+    line-height:1.8;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#cceeff;
+    padding:18px;
+    text-align:center;
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 20px;
+    color:#004080;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff6600;
+}
+
+/* WELCOME */
+
+.welcome{
+    background:#fffdf5;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.welcome h2{
+    color:#0099cc;
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.welcome p{
+    max-width:1000px;
+    margin:auto;
+    font-size:21px;
+    line-height:1.9;
+}
+
+/* COURSE SECTION */
+
+.courses{
+    padding:80px 20px;
+    background:#eef9ff;
+}
+
+.courses h2{
+    text-align:center;
+    font-size:42px;
+    color:#0066cc;
+    margin-bottom:50px;
+}
+
+.course-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+/* DIFFERENT LIGHT COLORS */
+
+.card1{
+    background:#ffd6d6;
+}
+
+.card2{
+    background:#ffe7c7;
+}
+
+.card3{
+    background:#fff7b2;
+}
+
+.card4{
+    background:#d9ffd9;
+}
+
+.card5{
+    background:#d6f5ff;
+}
+
+.card6{
+    background:#e6d6ff;
+}
+
+.card7{
+    background:#ffd9f2;
+}
+
+.card8{
+    background:#d6fff5;
+}
+
+.course-card{
+    width:250px;
+    padding:30px 20px;
+    border-radius:20px;
+    text-align:center;
+    transition:0.4s;
+    box-shadow:0 5px 12px rgba(0,0,0,0.08);
+}
+
+.course-card:hover{
+    transform:translateY(-10px);
+}
+
+.course-card h3{
+    margin-bottom:15px;
+    font-size:24px;
+    color:#333;
+}
+
+.course-card p{
+    font-size:17px;
+    line-height:1.7;
+}
+
+/* EXPERIENCE */
+
+.experience{
+    background:#fff8f0;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.experience h2{
+    font-size:42px;
+    color:#ff6600;
+    margin-bottom:20px;
+}
+
+.experience p{
+    font-size:22px;
+    line-height:1.9;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* DIRECTOR */
+
+.director{
+    background:#f2f2ff;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.director h2{
+    font-size:42px;
+    color:#6633cc;
+    margin-bottom:20px;
+}
+
+.director p{
+    font-size:25px;
+    line-height:1.8;
+}
+
+/* LOCATION */
+
+.location{
+    background:#f0fff5;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.location h2{
+    font-size:42px;
+    color:#009966;
+    margin-bottom:20px;
+}
+
+.location p{
+    font-size:24px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#dff6ff;
+    padding:25px;
+    text-align:center;
+    font-size:18px;
+    color:#004080;
+    font-weight:bold;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:40px;
+    }
+
+    header p,
+    .welcome p,
+    .experience p{
+        font-size:18px;
+    }
+
+    .welcome h2,
+    .courses h2,
+    .experience h2,
+    .director h2,
+    .location h2{
+        font-size:32px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .director p,
+    .location p{
+        font-size:20px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>TECH ELITES</h1>
+
+    <p>
+        Innovative Computer Training For Children From Beginner Level.
+        We Provide Quality Education For Children.
+    </p>
+
+</header>
+
+<nav>
+
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Experience</a>
+    <a href="#">Director</a>
+    <a href="#">Location</a>
+
+</nav>
+
+<section class="welcome">
+
+    <h2>Welcome To Tech Elites</h2>
+
+    <p>
+        Tech Elites is a professional computer training institute for children.
+        We teach students using easy practical methods and modern technology.
+        Our goal is to improve computer knowledge and confidence in children.
+    </p>
+
+</section>
+
+<section class="courses">
+
+    <h2>Our Course Contents</h2>
+
+    <div class="course-container">
+
+        <div class="course-card card1">
+            <h3>Computer Fundamentals</h3>
+            <p>Learn the basics of computers and digital skills.</p>
+        </div>
+
+        <div class="course-card card2">
+            <h3>Text Editors</h3>
+            <p>Practice Notepad, WordPad and typing skills.</p>
+        </div>
+
+        <div class="course-card card3">
+            <h3>Windows</h3>
+            <p>Understand Windows operating system basics.</p>
+        </div>
+
+        <div class="course-card card4">
+            <h3>MS Office</h3>
+            <p>Learn MS Word, Excel and Office applications.</p>
+        </div>
+
+        <div class="course-card card5">
+            <h3>PowerPoint</h3>
+            <p>Create attractive presentations and slides.</p>
+        </div>
+
+        <div class="course-card card6">
+            <h3>HTML</h3>
+            <p>Learn webpage designing and web development.</p>
+        </div>
+
+        <div class="course-card card7">
+            <h3>Google Apps</h3>
+            <p>Learn Gmail, Docs, Drive and online tools.</p>
+        </div>
+
+        <div class="course-card card8">
+            <h3>ChatGPT</h3>
+            <p>Learn modern AI tools and smart productivity.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="experience">
+
+    <h2>20 Years Of Experience</h2>
+
+    <p>
+        We have 20 years of experience in programming and computer education.
+        We worked with leading institutes in Hyderabad and trained many students successfully.
+    </p>
+
+</section>
+
+<section class="director">
+
+    <h2>Director</h2>
+
+    <p>
+        <strong>Ram K. Gopi</strong><br>
+        Director Of Tech Elites
+    </p>
+
+</section>
+
+<section class="location">
+
+    <h2>Location</h2>
+
+    <p>
+        Near MRF Showroom, Podalada
+    </p>
+
+</section>
+
+<footer>
+
+    © 2026 Tech Elites | Innovative Computer Training For Children
+
+</footer>
+
+</body>
+</html>
