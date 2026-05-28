@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tech Elites Computer Education</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eef9ff;
+    color:#00334d;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(90deg,#87CEFA,#4FC3F7,#00BFFF);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:55px;
+    letter-spacing:2px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:24px;
+}
+
+/* NAVIGATION */
+
+nav{
+    background:#29B6F6;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* HERO SECTION */
+
+.hero{
+    height:500px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3');
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:26px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:white;
+    color:#0288d1;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0288d1;
+    color:white;
+}
+
+/* COURSES */
+
+.courses{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.courses h2{
+    font-size:45px;
+    color:#0288d1;
+    margin-bottom:40px;
+}
+
+.course-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.course-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.4s;
+}
+
+.course-card:hover{
+    transform:translateY(-10px);
+    background:#dff6ff;
+}
+
+.course-card h3{
+    color:#0288d1;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.course-card p{
+    font-size:17px;
+}
+
+/* ABOUT */
+
+.about{
+    background:#dff6ff;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:42px;
+    color:#0288d1;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:21px;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+}
+
+/* CONTACT */
+
+.contact{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:42px;
+    color:#0288d1;
+    margin-bottom:20px;
+}
+
+.contact p{
+    font-size:23px;
+    margin:12px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#29B6F6;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>TECH ELITES</h1>
+
+    <p>Innovative Computer Education For Children</p>
+
+</header>
+
+<nav>
+
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+    <div>
+
+        <h2>Bright Future With Technology</h2>
+
+        <p>Learn Coding, AI, Office Tools & Web Designing</p>
+
+        <a href="#" class="btn">Join Today</a>
+
+    </div>
+
+</section>
+
+<section class="courses">
+
+    <h2>Courses Offered</h2>
+
+    <div class="course-container">
+
+        <div class="course-card">
+            <h3>Computer Fundamentals</h3>
+            <p>Learn basic computer operations and digital knowledge.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Programming</h3>
+            <p>Learn coding skills and logical thinking.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Text Editors</h3>
+            <p>Typing practice, Notepad and WordPad learning.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Windows</h3>
+            <p>Understand Windows operating system basics.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>MS-Office</h3>
+            <p>MS Word, Excel and Office productivity tools.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Power Point</h3>
+            <p>Create professional presentations with animations.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>HTML</h3>
+            <p>Design attractive webpages and websites.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Google Apps</h3>
+            <p>Learn Gmail, Google Docs, Drive and more.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Chat GPT & AI</h3>
+            <p>Explore modern AI tools and future technologies.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <h2>About Our Institute</h2>
+
+    <p>
+        Tech Elites provides innovative computer education for children.
+        We focus on practical learning, creativity and modern technology skills.
+        Students learn coding, MS-Office, AI tools and webpage designing
+        in an easy and friendly environment.
+    </p>
+
+</section>
+
+<section class="contact">
+
+    <h2>Visit Our Institute</h2>
+
+    <p>?? Near MRF Show Room, At Podalada</p>
+
+    <p>?? +91 XXXXXXXXXX</p>
+
+    <p>?? Tech Elites Computer Education</p>
+
+</section>
+
+<footer>
+
+    © 2026 TECH ELITES | Innovative Computer Education For Children
+
+</footer>
+
+</body>
+</html>
